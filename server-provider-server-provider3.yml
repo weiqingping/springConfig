@@ -1,0 +1,6 @@
+server:
+  port: 8863
+eureka: 
+  defaultZone: http://192.168.193.1:8762/eureka/,http://192.168.193.1:8763/eureka/,http://192.168.193.1:8761/eureka/
+  hostname: 192.168.193.1
+  instance-id: server-provider-8863
